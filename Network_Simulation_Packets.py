@@ -20,7 +20,7 @@ packet_counter = 0
 colors = []
 running = True
 env = simpy.Environment()
-test4=""
+test5=""
 
 
 #################################################################
@@ -192,5 +192,5 @@ ani = animation.FuncAnimation(fig, update, interval=1000, blit=False)
 
 root.mainloop()
 
-test4="successful"
-print(test4)
+test5="successful"
+print(test5)
