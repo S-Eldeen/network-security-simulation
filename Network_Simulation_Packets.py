@@ -20,8 +20,8 @@ packet_counter = 0
 colors = []
 running = True
 env = simpy.Environment()
-test=""
-test1=""
+test4=""
+
 
 #################################################################
 # دالة توليد أرقام LCG
@@ -192,7 +192,5 @@ ani = animation.FuncAnimation(fig, update, interval=1000, blit=False)
 
 root.mainloop()
 
-test="successful"
-test1="successful"
-print(test)
-print(test1)
+test4="successful"
+print(test4)
