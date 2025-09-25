@@ -21,6 +21,7 @@ colors = []
 running = True
 env = simpy.Environment()
 test=""
+test1=""
 
 #################################################################
 # دالة توليد أرقام LCG
@@ -192,4 +193,6 @@ ani = animation.FuncAnimation(fig, update, interval=1000, blit=False)
 root.mainloop()
 
 test="successful"
+test1="successful"
 print(test)
+print(test1)
